@@ -1,0 +1,11 @@
+# Windows-compatible PRE-COMPILED versions
+Flask==2.3.3
+Flask-CORS==4.0.0
+pypdf==3.17.0
+python-docx==1.1.0
+google-generativeai==0.8.3
+python-multipart==0.0.6
+# Force compatible build tools
+setuptools==68.2.2
+wheel==0.43.0
+packaging==23.2

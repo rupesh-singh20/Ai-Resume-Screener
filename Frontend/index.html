@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Resume Screener</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🚀 AI Resume Screener</h1>
+        <p>Upload multiple resumes and find the best candidates instantly</p>
+      </header>
+
+      <div class="upload-section">
+        <div class="job-description">
+          <label for="jobDescription">Job Description:</label>
+          <textarea
+            id="jobDescription"
+            placeholder="Paste the job description here..."
+          ></textarea>
+        </div>
+
+        <div class="file-upload">
+          <input type="file" id="resumeFiles" multiple accept=".pdf,.docx" />
+          <label for="resumeFiles" class="file-label">
+            📎 Choose Resumes (PDF, DOCX)
+            <span id="fileCount">No files selected</span>
+          </label>
+        </div>
+
+        <button id="screenBtn" class="screen-btn" type="button" disabled>
+          🎯 Screen Resumes
+        </button>
+      </div>
+
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Analyzing resumes with AI...</p>
+      </div>
+
+      <div id="results" class="results hidden">
+        <div class="stats">
+          <div class="stat">
+            <h3 id="totalResumes">0</h3>
+            <p>Total Resumes</p>
+          </div>
+          <div class="stat">
+            <h3 id="topScore">0</h3>
+            <p>Top ATS Score</p>
+          </div>
+        </div>
+
+        <div class="top-candidates">
+          <h3>🏆 Top 5 Candidates</h3>
+          <div id="topCandidates" class="candidate-grid"></div>
+        </div>
+
+        <div class="all-results">
+          <h3>All Candidates (Sorted by Score)</h3>
+          <div id="allCandidates" class="candidate-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume Viewer Modal -->
+    <div id="resumeModal" class="modal-overlay hidden">
+      <div class="modal-container">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <h2 id="modalCandidateName">Candidate</h2>
+            <div class="modal-badges">
+              <span id="modalCandidateScore" class="badge-score">Score</span>
+              <span id="modalCandidateFile" class="badge-file">File</span>
+            </div>
+          </div>
+          <button id="closeModalBtn" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <pre id="modalResumeText"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
