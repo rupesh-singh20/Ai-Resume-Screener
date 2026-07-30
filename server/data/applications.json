@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "dx6znt81s7cd1kge4ryar8",
+    "jobId": "job_id_stripe_senior_frontend",
+    "candidateId": "zl839ypwmykhe6e4acaf8q",
+    "resumeId": "2bbk9q7yeun6xsvopsd938",
+    "score": 78,
+    "summary": "The candidate is strong in front-end technologies and has worked with React and standard style tools, which matches the UI needs. However, the job requests full-stack capacity including Express/Mongoose services, which are missing from the resume.",
+    "status": "Applied",
+    "createdAt": "2026-07-05T18:42:57.484Z"
+  }
+]

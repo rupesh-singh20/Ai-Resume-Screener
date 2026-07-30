@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "job_id_stripe_senior_frontend",
+    "title": "Senior Frontend Engineer",
+    "company": "Stripe",
+    "description": "We are looking for a Senior Frontend Engineer to build beautiful, intuitive, and highly robust payment dashboard interfaces. You will collaborate closely with product managers and designers to craft clean user experiences using React, TypeScript, and modern styling solutions. Performance, accessibility, and high code quality are key parts of this role.",
+    "requirements": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "GraphQL",
+      "Web Performance",
+      "Accessibility"
+    ],
+    "location": "San Francisco, CA (Hybrid)",
+    "salary": "$160,000 - $210,000",
+    "recruiterId": "recruiter_mock_id_999999999999",
+    "createdAt": "2026-07-05T18:39:01.570Z"
+  },
+  {
+    "_id": "job_id_google_ai_engineer",
+    "title": "AI / Machine Learning Integration Engineer",
+    "company": "Google DeepMind",
+    "description": "Join the team building next-generation agentic frameworks and Gemini interfaces. In this role, you will build application layers integrating large language models (LLMs) into workflows, build parser services, optimize embeddings, and design high-fidelity interactive chat and recommendation systems. Strong experience with Node.js, Python, and vector stores is desired.",
+    "requirements": [
+      "Node.js",
+      "Python",
+      "Gemini API / OpenAI API",
+      "Vector Databases",
+      "Prompt Engineering",
+      "TypeScript"
+    ],
+    "location": "London, UK (Hybrid)",
+    "salary": "£120,000 - £160,000",
+    "recruiterId": "recruiter_mock_id_999999999999",
+    "createdAt": "2026-07-04T18:39:01.570Z"
+  },
+  {
+    "_id": "job_id_netflix_backend",
+    "title": "Staff Backend Engineer (Streaming Infrastructure)",
+    "company": "Netflix",
+    "description": "We are seeking a Staff Backend Software Engineer to design, scale, and maintain our high-throughput media ingestion pipeline. You will design distributed systems that process gigabytes of streaming telemetry data per second, optimize databases for speed, and build bulletproof APIs. Deep knowledge of system architecture and Java/Go/Node.js is essential.",
+    "requirements": [
+      "Node.js",
+      "Go",
+      "Java",
+      "Redis",
+      "Distributed Systems",
+      "PostgreSQL / MongoDB",
+      "AWS"
+    ],
+    "location": "Los Gatos, CA (Remote)",
+    "salary": "$300,000 - $450,000",
+    "recruiterId": "recruiter_mock_id_999999999999",
+    "createdAt": "2026-07-03T18:39:01.570Z"
+  },
+  {
+    "_id": "job_id_openai_fullstack",
+    "title": "Full Stack Product Engineer",
+    "company": "OpenAI",
+    "description": "We are looking for a creative, detail-oriented Full Stack Product Engineer to help build new features for ChatGPT and developer platforms. You will work across the entire stack, from frontend animations to backend optimization, model latency reduction, and database schema migrations. A passion for building rich, interactive AI-powered software is a must.",
+    "requirements": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Python",
+      "Tailwind CSS",
+      "SQL",
+      "WebSockets"
+    ],
+    "location": "San Francisco, CA (On-site)",
+    "salary": "$200,000 - $280,000",
+    "recruiterId": "recruiter_mock_id_999999999999",
+    "createdAt": "2026-07-02T18:39:01.570Z"
+  }
+]

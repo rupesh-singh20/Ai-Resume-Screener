@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "candidate_mock_id_999999999999",
+    "name": "John Doe (Candidate)",
+    "email": "candidate@example.com",
+    "password": "$2a$10$aPvheygkbRBjwSLGGsFx..RUYlj.brgXRyfqhom9IEe5h1u3v1XQy",
+    "role": "Candidate",
+    "createdAt": "2026-07-05T18:39:01.569Z"
+  },
+  {
+    "_id": "recruiter_mock_id_999999999999",
+    "name": "Sarah Smith (Recruiter)",
+    "email": "recruiter@example.com",
+    "password": "$2a$10$aPvheygkbRBjwSLGGsFx..RUYlj.brgXRyfqhom9IEe5h1u3v1XQy",
+    "role": "Recruiter",
+    "companyDetails": {
+      "name": "Stripe Inc.",
+      "industry": "Fintech / Payments",
+      "website": "https://stripe.com",
+      "description": "Global financial infrastructure for the internet."
+    },
+    "createdAt": "2026-07-05T18:39:01.570Z"
+  },
+  {
+    "_id": "admin_mock_id_999999999999",
+    "name": "Alex Mercer (Administrator)",
+    "email": "admin@example.com",
+    "password": "$2a$10$aPvheygkbRBjwSLGGsFx..RUYlj.brgXRyfqhom9IEe5h1u3v1XQy",
+    "role": "Admin",
+    "createdAt": "2026-07-05T18:39:01.570Z"
+  },
+  {
+    "_id": "zl839ypwmykhe6e4acaf8q",
+    "name": "Rupesh",
+    "email": "rksinhhj23@gmail.com",
+    "password": "$2a$10$WkpDgSxe2/slC6FpFgtJT.z5Fiu1VOEU3a6FEPS8hXY/V1WOg.c6K",
+    "role": "Candidate",
+    "createdAt": "2026-07-05T18:41:35.148Z"
+  },
+  {
+    "_id": "q87kdrlckxkl6bl66mkpd",
+    "name": "Rupesh",
+    "email": "rupesh@gmail.com",
+    "password": "$2a$10$P66eggXb/IJrg0TomdHv4OiPXYThN3GpCaObDxiUpLyMWU9sm.9e6",
+    "role": "Admin",
+    "createdAt": "2026-07-05T18:57:01.030Z"
+  },
+  {
+    "_id": "oy0pjota8db76fidgllrtd",
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "password": "$2a$10$AYKSLLUGlFwkSqigzVqQweeE0l7qFv1TE6HRuQZ/XnYul.yV.XiM2",
+    "role": "Candidate",
+    "createdAt": "2026-07-06T19:37:59.656Z"
+  }
+]
