@@ -1,7 +1,7 @@
 {
-  "name": "ai-resume-screening-server",
+  "name": "aihirex-server",
   "version": "1.0.0",
-  "description": "Backend server for AI Resume Screening Platform",
+  "description": "Backend server for AIHireX Platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

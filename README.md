@@ -1,62 +1,70 @@
-# AI Resume Screening & Recruitment Platform
+# AIHireX — AI-Powered Resume Screening & Recruitment Platform
 
-An AI-powered Resume Screening & Recruitment Platform built using the MERN Stack and Google Gemini AI. The platform helps job seekers optimize their resumes for ATS (Applicant Tracking Systems) and practice mock interviews, while enabling recruiters to efficiently screen, rank, and manage candidates.
+[![AIHireX Platform](https://img.shields.io/badge/Platform-AIHireX-6366f1?style=for-the-badge&logo=react)](http://localhost:5173/)
+[![Stack](https://img.shields.io/badge/Stack-MERN%20%2B%20Gemini%20AI-4f46e5?style=for-the-badge)](https://github.com/rupesh-singh20/Ai-Resume-Screener)
 
-## Features
-
-### Candidate Module
-- **Secure Authentication**: JWT-based login & signup.
-- **Resume Upload & Parsing**: Parse PDF/DOCX resumes automatically using text parsers or OCR (Tesseract.js).
-- **ATS Resume Score**: Real-time evaluation (0-100) based on industry standards.
-- **AI Career Assistance**: Get missing skills analysis, career recommendations, and customized learning roadmaps.
-- **AI Materials**: Generate cover letters and tailored resume summaries.
-- **Interactive Mock Interview**: Run a simulated interview with real-time feedback on your answers.
-- **Applied Jobs Tracker**: Apply for recruiter postings and check status.
-
-### Recruiter Module
-- **Job Openings Workspace**: Create, publish, and manage job specifications.
-- **Smart Candidate Ranking**: Sort and filter applicants by ATS compatibility score.
-- **Email Dispatcher**: Email shortlisted candidates directly from the dashboard.
-- **Recruitment Analytics**: Visualize applicant metrics, score distributions, and hiring funnels.
-
-### Admin Module
-- **Platform Management**: Monitor total users, job listings, and system health.
-- **AI usage auditing**: Track API costs and request volumes.
+**AIHireX** is an end-to-end AI-powered Resume Screening & Recruitment Platform built using the MERN Stack (MongoDB, Express.js, React, Node.js) and Google Gemini 2.5 AI. The platform provides job seekers with ATS resume optimization, missing skills analysis, and interactive mock interviews, while enabling recruiters to screen, rank, and manage applicant pipelines seamlessly.
 
 ---
 
-## Technical Stack
+## ✨ Key Features
 
-- **Frontend**: React (Vite), Tailwind CSS, React Router, Axios, Recharts, Lucide Icons.
-- **Backend**: Node.js, Express.js.
-- **Database**: MongoDB (Mongoose) with a local JSON file-based database fallback (`mockDb.js`) if no active MongoDB connection string is provided in `.env`.
-- **AI Core**: Google Gemini API via `@google/generative-ai`.
-- **File Handling**: PDF-Parse, Mammoth (DOCX), Tesseract.js (OCR), Multer.
+### 👤 Candidate Workspace
+- **Secure Authentication**: JWT-based authentication & profile management.
+- **ATS Resume Scoring**: Real-time 0-100 ATS compatibility evaluation, keyword gap detection, and formatting suggestions.
+- **AI Mock Interviews**: Realistic role-specific interview simulation powered by Google Gemini AI with instant answer scoring and feedback.
+- **Career Roadmap & Skill Analyzer**: Tailored skill gap recommendations, learning roadmaps, and custom cover letter generation.
+- **Application Tracker**: Real-time status monitoring for active job applications.
+
+### 💼 Recruiter Command HQ
+- **Requisition Management**: Create, publish, and manage job openings and requirements.
+- **Automated Candidate Ranking**: Rank applicants automatically based on ATS compatibility and skill alignment.
+- **AI Recruiter Copilot**: Intelligent search and candidate recommendations with transparent AI scoring breakdowns.
+- **Email & Pipeline Dispatcher**: Send interview invitations and update stage statuses directly from the dashboard.
+
+### 🛡️ Admin & Analytics Module
+- **Platform Monitoring**: Track active users, total job requisitions, and system health.
+- **AI Usage Auditing**: Audit API token consumption, cost metrics, and request volumes.
 
 ---
 
-## Getting Started
+## 🛠️ Technical Architecture
 
-### 1. Configure Environment Variables
-Create or open the `.env` file in the root directory:
+- **Frontend**: React 18, Vite, Tailwind CSS, Lucide Icons, Recharts, React Router.
+- **Backend**: Node.js, Express.js, Socket.IO.
+- **Database**: MongoDB (Mongoose) with local JSON storage fallback (`mockDb.js`).
+- **AI Core**: Google Gemini API (`@google/generative-ai`).
+- **Parsing & OCR**: PDF-Parse, Mammoth (DOCX), Tesseract.js (OCR), Multer.
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Environment Configuration
+Create a `.env` file in the root directory:
 ```env
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string (Optional - defaults to local JSON storage if empty)
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-GEMINI_API_KEY=your_gemini_api_key (Required for AI features)
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
-### 2. Install and Run the Backend Server
+### 2. Run Backend Server
 ```bash
 cd server
 npm install
 npm run dev
 ```
 
-### 3. Install and Run the React Frontend Client
+### 3. Run Frontend Application
 ```bash
 cd client
 npm install
 npm run dev
 ```
-The React dev server will run on `http://localhost:5173`. Any requests to `/api` will be proxied to the backend at `http://localhost:5000`.
+- **Frontend App**: `http://localhost:5173`
+- **Backend API**: `http://localhost:5000`
+
+---
+
+© 2026 AIHireX Platform. All Rights Reserved.
